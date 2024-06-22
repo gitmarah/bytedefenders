@@ -188,7 +188,7 @@ h2{
     align-items: center;
     justify-content: center;
     /* background-image:linear-gradient(to bottom right, #e84421, #686868); */
-    background-color: #e84421;
+    background-color: #333;
     border-bottom: 4px solid #fff;
 }
 .youtube-embed-header{

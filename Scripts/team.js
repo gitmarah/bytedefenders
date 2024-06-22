@@ -43,6 +43,10 @@ const team = [
         name: "Tamba F. <br>Matturi",
         image: "assets/Team/Tamba F. Matturi.jpg",
     },
+    {
+        name: "Tenneh J. <br>Sesay",
+        image: "assets/Team/Tenneh J. Sesay.jpg",
+    },
 ];
 
 export {team};

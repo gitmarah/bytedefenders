@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes rotate {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(720deg);}
+}
+@keyframes rotateOut {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(-720deg);}
+}
+@keyframes slideInRight {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+
+.offcanvas{
+    position: fixed;
+    top: 3.2rem;
+    right: 0;
+    display: flex;
+    background-color: #fff;
+    bottom: 0;
+    z-index: 2;
+    display: none;
+}
+.offcanvas-anim{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.offcanvas-anim-off{
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.offcanvas-shade{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000079;
+    display: none;
+    transition: all 5s;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    border-bottom: 1px solid #3333333a;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+ul li:hover{
+    background-color: #3636361f;
+}
+ul a{
+    color: #333;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.fa-bars, .fa-x{
+    color: whitesmoke;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.fa-bars{
+    animation-name: rotateOut;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.offcanvas-icon-anim{
+    animation-name: rotate;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.fa-bars:hover{
+    opacity: 0.9;
+}
+.fa-bars:active{
+    opacity: 0.8;
+}
+header{
+    background-color: #333;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+main{
+    padding: 3.5rem 0.5rem;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event-status p{
+    margin-bottom: 0.5rem;
+}
+.event-status button{
+    background-color: #e84421;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+.event-status button:hover{
+    opacity: 0.9;
+}
+.event-status button:active{
+    opacity: 0.8;
+}
+
+/* FOOTER */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: #333;
+    padding: 0.3rem;
+    font-size: 0.9em;
+    font-family: "Poppins", sans-serif;
+    z-index: 4;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    opacity: 0.9;
+}
+footer a:active{
+    opacity: 0.8;
+}

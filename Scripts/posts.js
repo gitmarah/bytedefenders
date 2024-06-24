@@ -1,6 +1,34 @@
 const posts = [
     {
         header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
+        shownText: "<b>UNAUTHORISED ACCESS 33(2):</b><br>👉For the purposes of this section, a person secures Access to computer data stored in a computer system if by causing a Computer system to perform a function he:",
+        moreText: `<br><br>(a)
+            Alters or erases computer data; or
+            <br><br>(b)
+            Copies, transfers or moves computer data to:
+            <br>(i)
+            A computer system or computer data
+            Storage medium other than that in which
+            It is stored; or
+            <br>(ii)
+            A different location in the same computer
+            System or computer data storage
+            Medium in which it is stored;
+            © has the computer data output from the
+            Computer system in which it is held, whether
+            By having it displayed or in any other manner;
+            <br><br>(c)
+            Uses the computer data.
+            Under subsection (1), commits an offence and
+            Is liable upon conviction to fine not less than NLe 100,000 and not
+            More than NLe 250,000 or to a term of imprisonment not less than
+            2 years and not exceeding 5 years or to both such fine and
+            Imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding
+            NLe 1,000,000.`,
+        image: "assets/Post Image/postImg4.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
         shownText: "<b>UNAUTHORISED ACCESS 33 (1):</b><br>👉A person, including a corporation, partnership, or association, who intentionally and without authorisation causes a computer system to perform a function with intent to ",
         moreText: `secure access to the whole or a part of a computer system or to enable such access to be secured other than to secure and protect the integrity of digital communications or for unlawful purposes, commits an offence and is liable upon conviction to fine not less than NLe100,000 and not more than NLe 250,000 or to a term of imprisonment not less than 2 years and not exceeding 5 years or to both such fine and imprisonment.<br><br>
             👉And in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding NLe1,000,000.✍️

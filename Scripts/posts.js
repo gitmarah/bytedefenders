@@ -1,6 +1,23 @@
 const posts = [
     {
         header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
+        shownText: "<b>UNAUTHORISED ACCESS 33(3):</b><br>👉For the purposes of this section, “unauthorised” Means access of any kind, to a computer system, program or data, by A person who has been authorised to access a specific data in a Computer system and without lawful excuse, whether",
+        moreText: `temporary or
+            Not, cause a computer system to perform a function other than those
+            Authorised, with intent to secure access to the whole or a part of a
+            Computer system or to enable such access to be secured.<br><br>
+            According to subsection (1), commits an offence and
+            Is liable upon conviction to fine not less than NLe 100,000 and not
+            More than NLe 250,000 or to a term of imprisonment not less than
+            2 years and not exceeding 5 years or to both such fine and
+            Imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding
+            NLe 1,000,000.<br>
+            Know the law before it bites you.
+            `,
+        image: "assets/Post Image/postImg5.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
         shownText: "<b>UNAUTHORISED ACCESS 33(2):</b><br>👉For the purposes of this section, a person secures Access to computer data stored in a computer system if by causing a Computer system to perform a function he:",
         moreText: `<br><br>(a)
             Alters or erases computer data; or

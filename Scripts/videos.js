@@ -1,5 +1,10 @@
 const videos = [
     {
+        videoTitle: "Introduction Video | ByteDefenders",
+        videoDescription: "Learn more about us on our YouTube channel.",
+        videoLink: `<iframe width="560" src="https://www.youtube.com/embed/E_S4UQD3pm0?si=ZEbmTBGZm42mZ80N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    },
+    {
         videoTitle: "What is Cyber Security? | Simplilearn",
         videoDescription: "Watch this video to gain more insight on Cyber Security.",
         videoLink: `<iframe width="560" src="https://www.youtube.com/embed/inWWhr5tnEA?si=3TBkrTkVJdcV9iPl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`

@@ -1,6 +1,24 @@
 const posts = [
     {
         header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
+        shownText: "<b>UNAUTHORISED ACCESS 35(1):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally and without authorisation intercepts Or causes to be intercepted non-public transmissions of data to or from a computer system whether directly or indirectly",
+        moreText: `the transmission
+        Of which –<br>
+        (a) Results in a significant financial loss;<br>
+        (b) threatens national security;<br>
+        (c) causes physical injury or death to any Person; or<br>
+        (d) threatens public health or public safety,<br><br>
+        Commits an offence and is liable upon conviction commits an offence and is liable upon conviction to a fine not less than NLe100,000 and not more than NLe250,000 or to a term of
+        Imprisonment not less than 2 years and not exceeding 5 years or to
+        Both such fine and imprisonment and in the case of a corporation,
+        Partnership, or association, to a fine not less than NLe500,000 and
+        Not exceeding NLe1,000,000.<br>
+            Know the law before it bites you.
+            `,
+        image: "assets/Post Image/postImg7.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
         shownText: "<b>UNAUTHORISED ACCESS 34(1):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without reasonable authorisation causes a computer system to perform a function with intent to",
         moreText: `secure access to computer or program or data used directly in connection with or necessary for a Critical National Information Infrastructure.<br><br>Such has committed an offence and is liable upon conviction commits an offence and is liable upon conviction to a fine not less than NLe100,000 and not more than NLe250,000 or to a term of imprisonment not less than 2 years and not exceeding 5 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding NLe1,000,000.<br>
             Know the law before it bites you.

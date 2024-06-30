@@ -1,6 +1,21 @@
 const posts = [
     {
-        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES",
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES AND PENALTIES",
+        shownText: "<b>UNAUTHORISED ACCESS 35(1):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally or without authorisation does an act in relation to a",
+        moreText: `computer system which:
+        <br><br>(a)	Causes destruction, damage, deletion, Erasure, deterioration, generation, modification or alteration of a program or data or any Aspect or attribute related to the program or Data;
+        <br><br>Such a person will have committed an offence and is liable upon conviction to a fine not less
+        Than NLe100,000 and not more than NLe250,000 or to a term of
+        Imprisonment not less than 2 years and not exceeding 5 years or to
+        Both such fine and imprisonment and in the case of a corporation,
+        Partnership, or association, to a fine not less than NLe500,000 and
+        Not exceeding NLe1,000,000.
+
+            `,
+        image: "assets/Post Image/postImg8.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES AND PENALTIES",
         shownText: "<b>UNAUTHORISED ACCESS 35(1):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally and without authorisation intercepts Or causes to be intercepted non-public transmissions of data to or from a computer system whether directly or indirectly",
         moreText: `the transmission
         Of which –<br>

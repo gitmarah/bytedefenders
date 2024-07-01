@@ -1,7 +1,16 @@
 const posts = [
     {
-        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES AND PENALTIES",
-        shownText: "<b>UNAUTHORISED ACCESS 35(1):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally or without authorisation does an act in relation to a",
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>UNAUTHORISED ACCESS 36(d):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without authorisation does an act in relation to a computer system which causes denial, prevention, suppression or hindrance of access to a",
+        moreText: `program or data or any aspect or attribute related to the program or data or to any person entitled to it;<br><br>
+        Such will have committed an offence and is liable upon conviction commits an offence and is liable upon conviction to a fine not less than NLe100,000 and not more than NLe250,000 or to a term of imprisonment not less than 2 years and not exceeding 5 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding NLe1,000,000.<br>
+            Know the law before it bites you.
+            `,
+        image: "assets/Post Image/postImg9.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>UNAUTHORISED ACCESS 36(a):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally or without authorisation does an act in relation to a",
         moreText: `computer system which:
         <br><br>(a)	Causes destruction, damage, deletion, Erasure, deterioration, generation, modification or alteration of a program or data or any Aspect or attribute related to the program or Data;
         <br><br>Such a person will have committed an offence and is liable upon conviction to a fine not less
@@ -9,13 +18,13 @@ const posts = [
         Imprisonment not less than 2 years and not exceeding 5 years or to
         Both such fine and imprisonment and in the case of a corporation,
         Partnership, or association, to a fine not less than NLe500,000 and
-        Not exceeding NLe1,000,000.
-
+        Not exceeding NLe1,000,000.<br>
+            Know the law before it bites you.
             `,
         image: "assets/Post Image/postImg8.jpg",
     },
     {
-        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCES AND PENALTIES",
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
         shownText: "<b>UNAUTHORISED ACCESS 35(1):</b><br>👉A person, including a corporation, partnership, or Association, who intentionally and without authorisation intercepts Or causes to be intercepted non-public transmissions of data to or from a computer system whether directly or indirectly",
         moreText: `the transmission
         Of which –<br>

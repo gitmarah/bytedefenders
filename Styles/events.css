@@ -135,6 +135,7 @@ main{
 }
 .date{
     text-align: right;
+    font-weight: 600;
 }
 h2{
     font-size: 1em;

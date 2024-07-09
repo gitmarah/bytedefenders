@@ -1,6 +1,25 @@
 const posts = [
     {
         header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Computer related forgery (40) (1):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without authorisation inputs, alters,deletes or suppresses computer data, resulting in inauthentic datawith the intent that it be considered or acted upon for legal purposes as if it were authentic, regardless of whether",
+        moreText: `
+            or not the data is directly readable or intelligible, commits an offence and is liable upon conviction to a fine not less than NLe 10,000 and not more than NLe 30,000 or to a term of imprisonment not less than 1 year and not exceeding 3 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe 50,000 and not exceeding NLe 100,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg13.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Unauthorized Disclosure of Password (39):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without authorisation discloses to another person a password, access code or other means of gaining",
+        moreText: `access to any program or data held in a computer system:
+            <br>(a)	For any wrongful gain;
+            <br>(b)	For any unlawful purpose; or
+            <br>(c) to occasion any loss,<br>
+            Commits an offence and is liable upon conviction to a fine not less than NLe 10,000 and not more than NLe 30,000 or to a term of imprisonment not less than 1 year and not exceeding 3 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe 50,000 and not exceeding NLe 100,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg12.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
         shownText: "<b>Misuse of device 38 (1)(c):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without authorisation manufactures, adapts, sells, procures for use, receives, possesses, imports, offers to",
         moreText: `supply, distributes or otherwise make available-<br>
         (c) uses electronic communication equipment to bypass standard inter-connection path by illegal redirection of traffic.<br><br>

@@ -1,6 +1,59 @@
 const posts = [
     {
         header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Cyber Stalking and Cyber Bullying (44)(3):</b><br>👉Notwithstanding subsection (1) a person shall not be deemed to have acted in contravention of this Act if he does an act:<br><br>(a) for the purpose of preventing or",
+        moreText: `
+             detecting crime;
+             <br><br>(b) in compliance of and in accordance with the terms of a judicial order issued or in exercise of any power under this Act or any law; or
+             <br><br>(c) which is in the interest of the public.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg19.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Cyber Stalking and Cyber Bullying (44)(2):</b><br>👉A person, including a corporation, partnership, or association, who recklessly or intentionally sends a message or other matter by means of a computer system or network that:<br><br>(a) is grossly offensive, pornographic or",
+        moreText: `
+             of an indecent, obscene or menacing character or causes any such message or matter to be so disseminated without consent; or
+             <br><br>(b) he knows to be false, for the purpose of causing danger, obstruction, insult, injury, criminal intimidation, enmity, hatred, ill will or needless anxiety to another or causes such a message to be sent, commits an offence and shall be liable on conviction to a fine not less than NLe 30,000 and not more than NLe 50,000 or to a term of imprisonment not less than 2 years and not exceeding 5 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe 100,000 and not exceeding NLe 250,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg18.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Cyber Stalking and Cyber Bullying (44)(1):</b><br>👉A person, including a corporation, partnership, or association, who individually or with another person, willfully and repeatedly communicates, either directly or indirectly, with another person, if he knows or ought to have",
+        moreText: `
+             known that his conduct:
+             <br><br>(a) is likely to cause that person apprehension or fear of violence to him or damage or loss on his property; or
+             <br><br>(b) detrimentally affects that person; commits an offence and shall be liable on conviction to a fine not less than NLe 30,000 and not more than NLe 50,000 or to a term of imprisonment not less than 2 years and not exceeding 5 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe 100,000 and not exceeding NLe 250,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg17.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Electronic Signature (43):</b><br>👉A person, including a corporation, partnership, or association, who with the intent to defraud and or misrepresent, forges through electronic devices another person's signature or company mandate, commits an offence and shall be liable on conviction to a fine not less",
+        moreText: `
+             than NLe 50,000 and not more than NLe 1,000,000 or to a term of imprisonment not less than 3 years and not exceeding 5 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe500,000 and not exceeding NLe 5,000,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg16.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Identity theft and impersonation (42) (2):</b><br>👉A person, including a corporation, partnership, or association, who fraudulently:<br><br>(a) or dishonestly makes use of the electronic signature, password or any other unique identification feature of any other person; or",
+        moreText: `
+             <br><br>(b) impersonates another entity or person, living or dead, with intent to: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) gain advantage for himself or another person; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) obtain any property or an interest in any property; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) cause disadvantage to the person or entity being impersonated or another person; or <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) avoid arrest or prosecution or to obstruct, pervert or defeat the course of justice, commits an offence and isliable upon conviction to a fine not less than NLe 50,000 and not more than NLe 100,000 or to a term of imprisonment not less than 3 years and not exceeding 7 years or to both such fine and imprisonment, and in the case of a corporation, partnership, or association, to a fine not less than NLe100,000 and not exceeding NLe250,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg15.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
+        shownText: "<b>Identity theft and impersonation (42) (1):</b><br>👉A person, including a corporation, partnership, or association, who is engaged in the services of any financial institution, and as a result of his special knowledge commits",
+        moreText: `
+             identity theft, phishing of its employer, staff, service providers and consultants with the intent to defraud commits an offence and is liable upon conviction to a fine not less than NLe 50,000 and not more than NLe 100,000 or to a term of imprisonment not less than 3 years and not exceeding 7 years or to both such fine and imprisonment and in the case of a corporation,partnership, or association, to a fine not less than NLe 100,000 and not exceeding NLe 250,000.<br>
+            <b>Know the law before it bites you!</b>`,
+        image: "assets/Post Image/postImg14.jpg",
+    },
+    {
+        header: "SIERRA LEONE CYBER SECURITY AND CRIME ACT 2021 - OFFENCE AND PENALTIES",
         shownText: "<b>Computer related forgery (40) (1):</b><br>👉A person, including a corporation, partnership, or association, who intentionally or without authorisation inputs, alters,deletes or suppresses computer data, resulting in inauthentic datawith the intent that it be considered or acted upon for legal purposes as if it were authentic, regardless of whether",
         moreText: `
             or not the data is directly readable or intelligible, commits an offence and is liable upon conviction to a fine not less than NLe 10,000 and not more than NLe 30,000 or to a term of imprisonment not less than 1 year and not exceeding 3 years or to both such fine and imprisonment and in the case of a corporation, partnership, or association, to a fine not less than NLe 50,000 and not exceeding NLe 100,000.<br>
